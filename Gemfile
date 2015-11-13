@@ -22,6 +22,7 @@ gem 'turbolinks'
 group :development, :test do
   gem 'byebug'
   gem 'quiet_assets', '~> 1.1.0'
+  gem 'rspec-rails'
 end
 
 group :development do
