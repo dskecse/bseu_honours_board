@@ -25,6 +25,7 @@ end
 
 group :development, :test do
   gem 'byebug'
+  gem 'factory_girl_rails'
   gem 'quiet_assets', '~> 1.1.0'
   gem 'rspec-rails'
 end
