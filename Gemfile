@@ -19,6 +19,10 @@ gem 'turbolinks'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+group :test do
+  gem 'shoulda-matchers', '~> 3.0'
+end
+
 group :development, :test do
   gem 'byebug'
   gem 'quiet_assets', '~> 1.1.0'
